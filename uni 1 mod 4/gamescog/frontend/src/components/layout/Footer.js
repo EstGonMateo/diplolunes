@@ -1,7 +1,10 @@
 import React from 'react';
+import '../../styles/components/layout/Footer.css';
 const Footer = (props) => {
     return (
-        <div>Footer</div>
+       <Footer>
+           <p>Derechos reservados. Esteban G Mateo. GamesCog. 2022.</p>
+       </Footer>    
     );
 }
 
