@@ -1,12 +1,10 @@
-
-
-
-import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import React from 'react' 
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './Normalize.css';
-import './App.css';
-import Header from './components/layout/Header';
-import Nav from './components/layout/Nav';
-import Footer from './components/layout/Footer';
+//import './App.css';
+import Header from "./components/layout/Header";
+import Nav from "./components/layout/Nav";
+import Footer from "./components/layout/Footer";
 
 import HomePage from './pages/HomePage';
 import AutorPage from './pages/AutorPage';
@@ -35,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+

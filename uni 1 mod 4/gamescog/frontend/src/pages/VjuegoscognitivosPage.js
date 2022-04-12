@@ -1,5 +1,7 @@
-import React from 'react';
 import '../styles/components/pages/Vjuegoscognitivos.css';
+
+import React from 'react';
+
 const VjuegoscognitivosPage = (props) => {
     return (
         <main className="holder">

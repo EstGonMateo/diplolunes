@@ -1,5 +1,7 @@
-import React from 'react';
 import '../styles/components/pages/Info.css';
+
+import React from 'react';
+
 const InfoPage = (props) => {
     return (
         <main className="holder">

@@ -1,5 +1,7 @@
-import React from 'react';
 import '../styles/components/pages/Autor.css';
+
+import React from 'react';
+
 const AutorPage = (props) => {
     return (
      <section className="holder">
