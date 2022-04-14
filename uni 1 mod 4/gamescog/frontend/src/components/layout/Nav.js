@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../styles/components/layout/Nav.css';
 
 //import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ const Nav = (props) => {
         <nav>
            <div className="holder">
                 <ul>
-                    <li><NavLink activeClassName='activo' exact to="/">Home</NavLink></li>
+                    <li><NavLink activeClassName='active' exact to="/">Home</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/autor">Autor</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/info">Info</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/vjuegoscognitivos">Vjuegoscognitivos</NavLink></li>
