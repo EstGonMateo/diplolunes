@@ -10,7 +10,7 @@ const VjuegoscognitivosPage = (props) => {
 
       <h4>PacMan</h4>
       <div className="VjuegosCognitivos">
-      <img src="images/pacman.gif" width="960" height="250" alt="pacman" />
+      <img src="images/pacman1.gif" width="960" height="250" alt="pacman" />
       <div className="info">
 <p>Procesos cognitivos para rehabilitar con Pac-Man: Velocidad de procesamiento.
 Atención sostenida, ya que el usuario debe mantener un grado de activación para
