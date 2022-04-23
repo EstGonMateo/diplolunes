@@ -1,13 +1,10 @@
-import '../styles/components/pages/Bibliografía.css';
-
-import React from 'react';
-
+import '../styles/Bibliografía.css';
 const BibliografíaPage = (props) => {
     return (
         <main className="holder">
       <h2>Bibliografía</h2>
     <div className="bibliografía">
-      <img src="img/biblio.jpg" width="960" height="250" alt="biblio" />
+      <img src="images/biblio.jpg" width="960" height="250" alt="biblio" />
     <h3>Desarrollo Cognitivo y Videojuegos</h3>
     <h4>Mejora de Habilidades Cognitivas mediante el uso de videojuegos</h4>
     <p><li><a href="https://www.pantallasamigas.net/estudios-videojuegos-mejoran-habilidades-cognitivas/" TARGET="window">ESTUDIOS AFIRMAN QUE JUGAR A VIDEOJUEGOS MEJORA LAS HABILIDADES COGNITIVAS</a></li></p>

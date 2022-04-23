@@ -1,10 +1,10 @@
-import React from "react" 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 import './Normalize.css';
 import './App.css';
 import Header from "./components/layout/Header";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
+
 
 import HomePage from './pages/HomePage';
 import AutorPage from './pages/AutorPage';
@@ -17,7 +17,7 @@ import ContactoPage from './pages/ContactoPage';
 function App() {
   return (
     <Router>
-      <Header/>
+       <Header>Hola</Header>
       <Nav />
       <Switch>
         <Route path="/" exact component={HomePage} />
@@ -26,12 +26,10 @@ function App() {
         <Route path="/vjuegoscognitivos" exact component={VjuegoscognitivosPage} />
         <Route path="/bibliografía" exact component={BibliografíaPage} />
         <Route path="/Contacto" exact component={ContactoPage} />
-        </Switch>
+      </Switch>
       <Footer/>
       </Router>
   );
 }
 
 export default App;
-
-

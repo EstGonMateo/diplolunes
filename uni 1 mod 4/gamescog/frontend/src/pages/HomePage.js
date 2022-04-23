@@ -1,12 +1,9 @@
-import '../styles/components/pages/HomePage.css';
-
-import React from 'react';
-
+import '../styles/HomePage.css';
 const HomePage = (props) => {
     return (
         <main className="holder">
     <div className="homeimg">
-      <img src="img/tetrisbrain.jpg" width="960" height="250" alt="tetrisbrain" />
+      <img src="images/tetrisbrain.jpg" width="960" height="250" alt="tetrisbrain" />
     </div>
     <div className="columnas">
       <div className="Descripción left">

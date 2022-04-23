@@ -1,118 +1,121 @@
 .VideojuegosCognitivos{
-    border: 1px solid gray;
-    border-radius: 0.7em;
-    margin: 1em 0;
-    padding: 1em;
-    overflow: hidden;
-    }
-    
-    .VideojuegosCognitivos .info{
-    width: 75%;
-    }
-    
-    .VideojuegosCognitivos .info h4{
-    color: #2e64a1;
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: 500;
-    margin: 0 0 1em;
-    text-align: center;
-    border-bottom: 1px solid #2e64a1;
-    padding-bottom: 0.5em;
-    }
-    
-    .VideojuegosCognitivos .info p{
-    font-size: 1.2em;
-    font-weight: 400;
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid #5878ca;
-    line-height: 1.2em;
-    text-align: justify;
-    }
-    
-    .VideojuegosCognitivos img{
-    border-radius: 0.8em;
-    }
-    
-    .VideojuegosCognitivos:nth-child(even) img{ /*par*/
-      float: right;
-      margin: 0 0 0 1em;
-    }
-    
-    .VideojuegosCognitivos:nth-child(even) .info{
-    float: left;
-    }
-    
-    .VideojuegosCognitivos:nth-child(odd) img{/*impar*/
-    float: left;
-    margin: 0 1em 0 0;
-    }
-    
-    .VideojuegosCognitivos:nth-child(odd) .info{
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+  }
+  
+  .VideojuegosCognitivos .info{
+  width: 75%;
+  }
+  
+  .VideojuegosCognitivos .info h4{
+  color: #2e64a1;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  text-align: center;
+  border-bottom: 1px solid #2e64a1;
+  padding-bottom: 0.5em;
+  }
+  
+  .VideojuegosCognitivos .info p{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+  line-height: 1.2em;
+  text-align: justify;
+  }
+  
+  .VideojuegosCognitivos img{
+  border-radius: 0.8em;
+  }
+  
+  .VideojuegosCognitivos:nth-child(even) img{ /*par*/
     float: right;
-    }
-    
-    .VideojuegosCognitivos{
-    border: 1px solid gray;
-    border-radius: 0.7em;
-    margin: 1em 0;
-    padding: 1em;
-    overflow: hidden;
-    }
-    
-    .VideojuegosCognitivos .info{
-    width: 75%;
-    }
-    
-    .VideojuegosCognitivos .info h5{
-    color: #2e64a1;
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: 500;
-    margin: 0 0 1em;
-    text-align: center;
-    border-bottom: 1px solid #2e64a1;
-    padding-bottom: 0.5em;
-    }
-    
-    .VideojuegosCognitivos .info p{
-    font-size: 1.2em;
-    font-weight: 400;
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid #5878ca;
-    line-height: 1.2em;
-    text-align: justify;
-    }
-    
-    .VideojuegosCognitivos img{
-    border-radius: 0.8em;
-    }
-    
-    .VideojuegosCognitivos:nth-child(even) img{ /*par*/
-      float: right;
-      margin: 0 0 0 1em;
-    }
-    
-    .VideojuegosCognitivos:nth-child(even) .info{
-    float: left;
-    }
-    
-    .VideojuegosCognitivos:nth-child(odd) img{/*impar*/
-    float: left;
-    margin: 0 1em 0 0;
-    }
-    
-    .VideojuegosCognitivos:nth-child(odd) .info{
+    margin: 0 0 0 1em;
+  }
+  
+  .VideojuegosCognitivos:nth-child(even) .info{
+  float: left;
+  }
+  
+  .VideojuegosCognitivos:nth-child(odd) img{/*impar*/
+  float: left;
+  margin: 0 1em 0 0;
+  }
+  
+  .VideojuegosCognitivos:nth-child(odd) .info{
+  float: right;
+  }
+  
+  .VideojuegosCognitivos{
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+  }
+  
+  .VideojuegosCognitivos .info{
+  width: 75%;
+  }
+  
+  .VideojuegosCognitivos .info h5{
+  color: #2e64a1;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  text-align: center;
+  border-bottom: 1px solid #2e64a1;
+  padding-bottom: 0.5em;
+  }
+  
+  .VideojuegosCognitivos .info p{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+  line-height: 1.2em;
+  text-align: justify;
+  }
+  
+  .VideojuegosCognitivos img{
+  border-radius: 0.8em;
+  }
+  
+  .VideojuegosCognitivos:nth-child(even) img{ /*par*/
     float: right;
-    }
+    margin: 0 0 0 1em;
+  }
+  
+  .VideojuegosCognitivos:nth-child(even) .info{
+  float: left;
+  }
+  
+  .VideojuegosCognitivos:nth-child(odd) img{/*impar*/
+  float: left;
+  margin: 0 1em 0 0;
+  }
+  
+  .VideojuegosCognitivos:nth-child(odd) .info{
+  float: right;
+  }
     
+    
+      
+      

@@ -1,18 +1,12 @@
-
-import '../../styles/components/layout/Nav.css';
-
-//import { Link } from "react-router-dom";
+import '../../styles/Nav.css';
+//import {Link} from 'react-router-dom'
 import { NavLink } from "react-router-dom";
-
-
-
-
 const Nav = (props) => {
-    return (
+    return(
         <nav>
            <div className="holder">
                 <ul>
-                    <li><NavLink activeClassName='active' exact to="/">Home</NavLink></li>
+                    <li><NavLink activeClassName='activo' exact to="/">Home</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/autor">Autor</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/info">Info</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/vjuegoscognitivos">Vjuegoscognitivos</NavLink></li>
@@ -21,8 +15,7 @@ const Nav = (props) => {
                 </ul>
            </div>
         </nav>
-        
     );
-}
+ }   
 
-export default Nav;
+ export default Nav;

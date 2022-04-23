@@ -1,13 +1,11 @@
-import '../../styles/components/layout/Footer.css';
-
-
+import '../../styles/Footer.css';
 
 const Footer = (props) => {
-    return (
-       <Footer>
+    return(
+        <footer>
            <p>Derechos reservados. Esteban G Mateo. GamesCog. 2022.</p>
-       </Footer>    
+       </footer>   
     );
-}
+ }   
 
-export default Footer;
+ export default Footer;
