@@ -11,6 +11,7 @@ import AutorPage from './pages/AutorPage';
 import InfoPage from './pages/InfoPage';
 import VjuegoscognitivosPage from './pages/VjuegoscognitivosPage';
 import BibliografíaPage from './pages/BibliografíaPage';
+import NovedadesPage from './pages/NovedadesPage';
 import ContactoPage from './pages/ContactoPage';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/info" exact component={InfoPage} />
         <Route path="/vjuegoscognitivos" exact component={VjuegoscognitivosPage} />
         <Route path="/bibliografía" exact component={BibliografíaPage} />
+        <Route path="/novedades" exact component={NovedadesPage} />
         <Route path="/Contacto" exact component={ContactoPage} />
       </Switch>
       <Footer/>

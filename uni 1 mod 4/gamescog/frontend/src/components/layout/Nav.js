@@ -11,6 +11,7 @@ const Nav = (props) => {
                     <li><NavLink activeClassName='activo' exact to="/info">Info</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/vjuegoscognitivos">Vjuegoscognitivos</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/bibliografía">Bibliografía</NavLink></li>
+                    <li><NavLink activeClassName='activo' exact to="/novedades">Novedades</NavLink></li>
                     <li><NavLink activeClassName='activo' exact to="/contacto">Contacto</NavLink></li>
                 </ul>
            </div>
