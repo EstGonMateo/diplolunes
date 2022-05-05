@@ -31,7 +31,7 @@ router.get('/novedades', async function (req, res, next) {
 
 router.post('/contacto' , async (req, res) => {
     const mail = {
-        to: 'b.mateo.86@hotmail.com',
+        to: 'banquimateo@gmail.com',
         subject: 'Contacto web',
         html: `${req.body.nombre} se contacto a traves de la web y quiere más
         informacion a este correo: ${req.body.email} <br> Además, hizo el siguiente
