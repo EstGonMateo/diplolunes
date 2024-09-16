@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ej3</title>
+  </head>
+  <body>
+    <p>ver la consola</p>
+
+    <script>
+        var alumnos = [
+                {
+                    nombre: 'Juan Gomez',
+                    nota: 7
+                }, {
+                    nombre: 'Pedro Rodriguez',
+                    nota: 4
+                }, {
+                    nombre: 'Roxana García',
+                    nota: 8
+                }, {
+                    nombre: 'Luciano Lopez',
+                    nota: 5
+                }, {
+                    nombre: 'Fernanda Gimenez',
+                    nota: 6
+                }, {
+                    nombre: 'Florencia Martinez',
+                    nota: 10
+                }, {
+                    nombre: 'Raul Sanchez',
+                    nota: 7
+                }, {
+                    nombre: 'Sandra Figueroa',
+                    nota: 8
+  }
+];
+
+var aprobados = alumnos.filter(function (alumno) {
+  return alumno.nota >= 7;
+});
+console.log(aprobados);
+console.log(`${aprobados.lenght} aprobados`);
+
+for(var i=0; i<aprobados.lenght; i++){
+document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota:${aprobados[i].nota}</p>`)
+}
+
+aprobados.forEach(a => document.write(`${a.nombre} (${a.nota}) <br>`))
+
+</script>
+  </body>
+</html>

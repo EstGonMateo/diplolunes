@@ -1,0 +1,9 @@
+.persona p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+    }
+    
+    .persona:first-child{
+    margin-left: 0;
+    }
